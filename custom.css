@@ -1,0 +1,31 @@
+body {
+    background: #a73737;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.center-img {
+    margin: 40px auto 0px 30%
+}
+
+.no-seleccionable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.discord-gradient {
+    background: #7289DA;
+   /* background: -webkit-linear-gradient(to right, #4E5D94, #7289DA, #FFFFFF, #99AAB5, #2C2F23, #23272A);
+    background: linear-gradient(to right, #4E5D94, #7289DA, #FFFFFF, #99AAB5, #2C2F23, #23272A); */ 
+    background: -webkit-linear-gradient(to right, #7289da, #4e5d94);
+    background: linear-gradient(to left, #4e5d94, #7289da)
+}
+
+.youtube-gradient {
+    background: #FF0000;
+    background: -webkit-linear-gradient(to left, #FF0000, #222);
+    background: linear-gradient(to left, #FF0000, #222)
+}
